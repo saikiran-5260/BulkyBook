@@ -1,0 +1,81 @@
+/* _content/BulkyBookWeb/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-xaq7ih10jw] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+
+
+.nav-pills .nav-link.active[b-xaq7ih10jw], .nav-pills .show > .nav-link[b-xaq7ih10jw] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+html[b-xaq7ih10jw] {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html[b-xaq7ih10jw] {
+        font-size: 16px;
+    }
+}
+
+.border-top[b-xaq7ih10jw] {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-xaq7ih10jw] {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-xaq7ih10jw] {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-xaq7ih10jw] {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+html[b-xaq7ih10jw] {
+    position: relative;
+    min-height: 100%;
+}
+
+body[b-xaq7ih10jw] {
+    margin-bottom: 60px;
+}
+
+.footer[b-xaq7ih10jw] {
+    position: fixed;
+    bottom: 0px;
+    margin: 0 auto;
+    width: 100%;
+    white-space: nowrap;
+    overflow:hidden;
+    height: 40px;
+}
+/*.footer {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+}*/
+/*.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 40px;
+    overflow:hidden;
+    margin: 0 auto;
+}
+*/

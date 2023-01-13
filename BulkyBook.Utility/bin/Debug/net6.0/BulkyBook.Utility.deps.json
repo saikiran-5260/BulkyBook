@@ -1,0 +1,219 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BulkyBook.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.0-rc.2.21480.10"
+        },
+        "runtime": {
+          "BulkyBook.Utility.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.Internal/6.0.0-rc.2.21480.10": {},
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.0-rc.2.21480.10": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "6.0.0-rc.2.21480.10"
+        }
+      },
+      "Microsoft.AspNetCore.Identity.UI/6.0.0-rc.2.21480.10": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0-rc.2.21480.10",
+          "Microsoft.Extensions.Identity.Stores": "6.0.0-rc.2.21480.10"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Identity.UI.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.48010"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/6.0.0-rc.2.21480.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0-rc.2.21480.5"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0-rc.2.21480.5": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-rc.2.21480.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0-rc.2.21480.5"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-rc.2.21480.5": {},
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0-rc.2.21480.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0-rc.2.21480.5"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/6.0.0-rc.2.21480.10": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0-rc.2.21480.5"
+        }
+      },
+      "Microsoft.Extensions.Identity.Core/6.0.0-rc.2.21480.10": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "6.0.0-rc.2.21480.10",
+          "Microsoft.Extensions.Logging": "6.0.0-rc.2.21480.5",
+          "Microsoft.Extensions.Options": "6.0.0-rc.2.21480.5"
+        }
+      },
+      "Microsoft.Extensions.Identity.Stores/6.0.0-rc.2.21480.10": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0-rc.2.21480.5",
+          "Microsoft.Extensions.Identity.Core": "6.0.0-rc.2.21480.10",
+          "Microsoft.Extensions.Logging": "6.0.0-rc.2.21480.5"
+        }
+      },
+      "Microsoft.Extensions.Logging/6.0.0-rc.2.21480.5": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.0-rc.2.21480.5",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-rc.2.21480.5",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0-rc.2.21480.5",
+          "Microsoft.Extensions.Options": "6.0.0-rc.2.21480.5",
+          "System.Diagnostics.DiagnosticSource": "6.0.0-rc.2.21480.5"
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0-rc.2.21480.5": {},
+      "Microsoft.Extensions.Options/6.0.0-rc.2.21480.5": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-rc.2.21480.5",
+          "Microsoft.Extensions.Primitives": "6.0.0-rc.2.21480.5"
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0-rc.2.21480.5": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0-rc.2.21480.5"
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/6.0.0-rc.2.21480.5": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0-rc.2.21480.5"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0-rc.2.21480.5": {}
+    }
+  },
+  "libraries": {
+    "BulkyBook.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Cryptography.Internal/6.0.0-rc.2.21480.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+CP7cAbMthDQLYKUmQoR9Gtt38+h5QxAhh85bb4iQsl4VUDR2z2w0fJkyB4tLdjx6tUE7WD2B5fV164jRTYK1g==",
+      "path": "microsoft.aspnetcore.cryptography.internal/6.0.0-rc.2.21480.10",
+      "hashPath": "microsoft.aspnetcore.cryptography.internal.6.0.0-rc.2.21480.10.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.0-rc.2.21480.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-StTmIYotxINTuaAgkjL+S/d819RIUD9qZkkqL74+v/M0T+ohh+1eb6Z4w9zHv7doUQjmylIpcQeKIMlDnJjjGw==",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/6.0.0-rc.2.21480.10",
+      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.6.0.0-rc.2.21480.10.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Identity.UI/6.0.0-rc.2.21480.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PnBk4RxtRtJ4Hn0G4m+NHemC2pwiVYoSlO/1Sp59f6ilyu2P9zPr4z8+59Ku9Rp/ZIBkHaf3lAsGjnOtjdzBfA==",
+      "path": "microsoft.aspnetcore.identity.ui/6.0.0-rc.2.21480.10",
+      "hashPath": "microsoft.aspnetcore.identity.ui.6.0.0-rc.2.21480.10.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/6.0.0-rc.2.21480.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U+2HRuMjMJgv2Y7FtKz1DJszmc/XB32TSoRhy+8hnN/jzHmcvQMR1QGbUKWygUzgVgQjIwRVOJuSFHjlLdKQ8A==",
+      "path": "microsoft.extensions.caching.abstractions/6.0.0-rc.2.21480.5",
+      "hashPath": "microsoft.extensions.caching.abstractions.6.0.0-rc.2.21480.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.0-rc.2.21480.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oLjs0qdNy7ddQfcmMaOwx4KXIreo3H7j80N33iaKupAGOKgnEzSGXYIGZxQVHh++cobWmmDQouw3IkP45W9O/w==",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0-rc.2.21480.5",
+      "hashPath": "microsoft.extensions.dependencyinjection.6.0.0-rc.2.21480.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-rc.2.21480.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hi3YC5dY6zjbV5ZNsi/UvKHNTpP4wkvaRXchH0FXGdU/pHDbmua9NAKLu9WCTs5DOnOXtvAbly/I6IZpGBzXSA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0-rc.2.21480.5",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0-rc.2.21480.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0-rc.2.21480.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2z4xG+Z4hiFARajcSmb7O/NbZ1OWqayu6LuktSkQ7sYTmnWu79dhf32Qdrx0L1xxnsV9G4SCo3w52tOHSY6MVA==",
+      "path": "microsoft.extensions.fileproviders.abstractions/6.0.0-rc.2.21480.5",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.6.0.0-rc.2.21480.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/6.0.0-rc.2.21480.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YC9BMIeyOmpZhW1zhZfjvBP7ookRjklWoZPR17+0QiehgXPIUixmdeLFm02yalzP95TOVjmsC5oN1XBDjZ33XQ==",
+      "path": "microsoft.extensions.fileproviders.embedded/6.0.0-rc.2.21480.10",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.6.0.0-rc.2.21480.10.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Identity.Core/6.0.0-rc.2.21480.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aF5CLmYDwqUOdD9yCxGP9bPVK1rcUlwRRAXrgwP0H26JSVlH/Ct6J+XSw7NKrJn6AIcXPDFV60KAoBBTIWKnhw==",
+      "path": "microsoft.extensions.identity.core/6.0.0-rc.2.21480.10",
+      "hashPath": "microsoft.extensions.identity.core.6.0.0-rc.2.21480.10.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Identity.Stores/6.0.0-rc.2.21480.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PHQXdzvOT8VuyKTEQifZoOwU+BuClBVaoG3qNJTMgPEyZkx8qIRqtsWsGDu47yzXwvCw9l337y6rRLeOyWUqIA==",
+      "path": "microsoft.extensions.identity.stores/6.0.0-rc.2.21480.10",
+      "hashPath": "microsoft.extensions.identity.stores.6.0.0-rc.2.21480.10.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/6.0.0-rc.2.21480.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HHZh0FQ21+k5+1VL1G64v1S1/oNkeB08cElUOln6ewKFUYhhyaABH8ASs08O0WSon51EB7ierYkAUOT9BTx3iQ==",
+      "path": "microsoft.extensions.logging/6.0.0-rc.2.21480.5",
+      "hashPath": "microsoft.extensions.logging.6.0.0-rc.2.21480.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0-rc.2.21480.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fcEdzB+in4k9lc2peXCNCXHHtPAh2MVcIplgHyBQwG5mxR/emcn3Cbt9TwJbl3kif2p2pqarLhXxs01VmM9VVQ==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0-rc.2.21480.5",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.0-rc.2.21480.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.0-rc.2.21480.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-otg8fXbbJhH2xQO5qKT67Oxra2YwqJsGh19nxHqPmZjcJzLB/BDavFdzAxt/rImISAjMxXiELNyrJzkZeJGUvw==",
+      "path": "microsoft.extensions.options/6.0.0-rc.2.21480.5",
+      "hashPath": "microsoft.extensions.options.6.0.0-rc.2.21480.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.0-rc.2.21480.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KpduKHx0+5a7lfUlcrdXpsnSq49OOB/cITyn9F+5EzvnUvx2uFvQ76lNtSK6dcKa0nl1A+qGVsLGTSjp1NN5Cg==",
+      "path": "microsoft.extensions.primitives/6.0.0-rc.2.21480.5",
+      "hashPath": "microsoft.extensions.primitives.6.0.0-rc.2.21480.5.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/6.0.0-rc.2.21480.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ULjUEVJVr2P1OmpUv++XobXZ9jcymlktpI20pJpMRgDyuH8s2oh7TJgLFtkkGYJw1LsBmUOY1yxj2Mh8776otw==",
+      "path": "system.diagnostics.diagnosticsource/6.0.0-rc.2.21480.5",
+      "hashPath": "system.diagnostics.diagnosticsource.6.0.0-rc.2.21480.5.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0-rc.2.21480.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xn/HBsyA/Fsp0gGZpdJcVBluc0MDXisNHHiYXTdreb1Nl4PEid7L6w3JcWrOU9xQFoL5Ep7ySnNDTn1BVVy26Q==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0-rc.2.21480.5",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0-rc.2.21480.5.nupkg.sha512"
+    }
+  }
+}
